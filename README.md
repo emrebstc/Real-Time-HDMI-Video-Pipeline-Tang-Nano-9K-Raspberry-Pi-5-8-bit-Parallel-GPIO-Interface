@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=oArUpdmAdEM
+
+
 Signal Name	 --  Pi 5 Pin (Physical No)	--   FPGA Pin (Tang Nano 9K)
 
 Ground 1      --   	Pin 6	              --             GND
