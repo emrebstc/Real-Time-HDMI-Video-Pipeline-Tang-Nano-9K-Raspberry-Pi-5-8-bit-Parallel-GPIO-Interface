@@ -1,0 +1,58 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\HDMI_top.vhd'
+Analyzing entity 'hdmi_top'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\HDMI_top.vhd":4)
+Analyzing architecture 'rtl'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\HDMI_top.vhd":19)
+Analyzing VHDL file 'C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\clkdiv.vhd'
+Analyzing entity 'gowin_clkdiv'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\clkdiv.vhd":4)
+Analyzing architecture 'rtl'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\clkdiv.vhd":12)
+Analyzing VHDL file 'C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\gowin_rpll\gowin_rpll.vhd'
+Analyzing entity 'gowin_rpll'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\gowin_rpll\gowin_rpll.vhd":13)
+Analyzing architecture 'behavioral'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\gowin_rpll\gowin_rpll.vhd":22)
+Analyzing VHDL file 'C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\gowin_sdpb\gowin_sdpb.vhd'
+Analyzing entity 'gowin_sdpb_24_16384'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\gowin_sdpb\gowin_sdpb.vhd":13)
+Analyzing architecture 'behavioral'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\gowin_sdpb\gowin_sdpb.vhd":29)
+Analyzing VHDL file 'C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\pixels.vhd'
+Analyzing entity 'pixels'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\pixels.vhd":5)
+Analyzing architecture 'rtl'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\pixels.vhd":23)
+Analyzing VHDL file 'C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\reset.vhd'
+Analyzing entity 'reset_sync'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\reset.vhd":5)
+Analyzing architecture 'rtl'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\reset.vhd":13)
+Analyzing VHDL file 'C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_enc.vhd'
+Analyzing entity 'svo_enc'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_enc.vhd":5)
+Analyzing architecture 'rtl'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_enc.vhd":34)
+Analyzing VHDL file 'C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_hdmi_top.vhd'
+Analyzing entity 'svo_hdmi_top'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_hdmi_top.vhd":4)
+Analyzing architecture 'rtl'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_hdmi_top.vhd":26)
+Analyzing VHDL file 'C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_tmds.vhd'
+Analyzing entity 'svo_tmds'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_tmds.vhd":5)
+Analyzing architecture 'rtl'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_tmds.vhd":16)
+Processing 'HDMI_top(rtl)'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\HDMI_top.vhd":4)
+Processing 'Gowin_rPLL(Behavioral)'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\gowin_rpll\gowin_rpll.vhd":13)
+Processing 'Gowin_CLKDIV(rtl)'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\clkdiv.vhd":4)
+Processing 'Reset_Sync(rtl)'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\reset.vhd":5)
+Processing 'svo_hdmi_top(rtl)'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_hdmi_top.vhd":4)
+Processing 'pixels(rtl)'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\pixels.vhd":5)
+Processing 'Gowin_SDPB_24_16384(Behavioral)'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\gowin_sdpb\gowin_sdpb.vhd":13)
+Processing 'svo_enc(rtl)'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_enc.vhd":5)
+Processing 'svo_tmds(rtl)'("C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\svo_tmds.vhd":5)
+NOTE  (EX0101) : Current top module is "HDMI_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\impl\gwsynthesis\Linux_Video_HDMI.vg" completed
+[100%] Generate report file "C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\impl\gwsynthesis\Linux_Video_HDMI_syn.rpt.html" completed
+GowinSynthesis finish

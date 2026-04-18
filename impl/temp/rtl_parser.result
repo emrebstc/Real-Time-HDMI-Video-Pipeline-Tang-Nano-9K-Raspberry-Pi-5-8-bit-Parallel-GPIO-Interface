@@ -1,0 +1,96 @@
+[
+ {
+  "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/HDMI_top.vhd",
+  "InstLine" : 4,
+  "InstName" : "HDMI_top",
+  "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/HDMI_top.vhd",
+  "ModuleLine" : 4,
+  "ModuleName" : "HDMI_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/HDMI_top.vhd",
+    "InstLine" : 61,
+    "InstName" : "u_pll",
+    "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/gowin_rpll/gowin_rpll.vhd",
+    "ModuleLine" : 13,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/HDMI_top.vhd",
+    "InstLine" : 68,
+    "InstName" : "u_div",
+    "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/clkdiv.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/HDMI_top.vhd",
+    "InstLine" : 72,
+    "InstName" : "u_reset",
+    "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/reset.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "Reset_Sync"
+   },
+   {
+    "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/HDMI_top.vhd",
+    "InstLine" : 77,
+    "InstName" : "u_hdmi",
+    "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/svo_hdmi_top.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "svo_hdmi_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/svo_hdmi_top.vhd",
+      "InstLine" : 83,
+      "InstName" : "u_pixels",
+      "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/pixels.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "pixels",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/pixels.vhd",
+        "InstLine" : 96,
+        "InstName" : "video_buffer_inst",
+        "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/gowin_sdpb/gowin_sdpb.vhd",
+        "ModuleLine" : 13,
+        "ModuleName" : "Gowin_SDPB_24_16384"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/svo_hdmi_top.vhd",
+      "InstLine" : 87,
+      "InstName" : "u_enc",
+      "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/svo_enc.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "svo_enc"
+     },
+     {
+      "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/svo_hdmi_top.vhd",
+      "InstLine" : 92,
+      "InstName" : "u_tmds_blue",
+      "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/svo_tmds.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "svo_tmds"
+     },
+     {
+      "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/svo_hdmi_top.vhd",
+      "InstLine" : 93,
+      "InstName" : "u_tmds_green",
+      "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/svo_tmds.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "svo_tmds"
+     },
+     {
+      "InstFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/svo_hdmi_top.vhd",
+      "InstLine" : 94,
+      "InstName" : "u_tmds_red",
+      "ModuleFile" : "C:/Users/Emre/OneDrive/Desktop/TangNano9K/Examples/Linux_Video_HDMI_youtube/src/svo_tmds.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "svo_tmds"
+     }
+    ]
+   }
+  ]
+ }
+]

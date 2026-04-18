@@ -1,0 +1,18 @@
+-d C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\impl\gwsynthesis\Linux_Video_HDMI.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\tang_nano-9k.cst
+-cfg C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\impl\pnr\device.cfg
+-sdc C:\Users\Emre\OneDrive\Desktop\TangNano9K\Examples\Linux_Video_HDMI_youtube\src\HDMI720p.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000
